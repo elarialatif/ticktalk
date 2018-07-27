@@ -1,0 +1,27 @@
+@charset "UTF-8";
+body {
+    margin: 0;
+}
+
+@font-face {
+    font-family: SofiaPro-SemiBold;
+    src: url("../fonts/Sofia Pro SemiBold.ttf");
+}
+
+.page-footer {
+    background-color: #f6f6f6;
+}
+
+.page-footer .logo a {
+    display: block;
+}
+
+.page-footer .links a {
+    font-family: SofiaPro-SemiBold, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 14pt;
+    color: rgba(138, 133, 126, 255);
+    text-align: right;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 0 1rem;
+}

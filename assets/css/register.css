@@ -1,0 +1,79 @@
+@font-face {
+    font-family: SofiaProRegular;
+    src: url("../fonts/Sofia Pro Regular.ttf");
+}
+
+@font-face {
+    font-family: SofiaPro-Medium;
+    src: url("../fonts/Sofia Pro Medium.ttf");
+}
+
+@font-face {
+    font-family: SofiaPro-SemiBold;
+    src: url("../fonts/Sofia Pro SemiBold.ttf");
+}
+
+.register {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.register .title {
+    padding: 0 15px;
+    display: block;
+}
+
+.register .title h1 {
+    font-family: SofiaProRegular, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 30pt;
+    color: rgba(38, 33, 32, 255);
+    text-align: left;
+}
+
+.register .title p {
+    font-family: SofiaProRegular, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 16pt;
+    color: rgba(138, 133, 126, 255);
+    text-align: left;
+    width: 900px;
+}
+
+.register .title hr {
+    margin: 0;
+    border-top: 2px solid #d76701;
+    width: 100px;
+    margin-top: 1rem;
+}
+
+.register .register_form label {
+    font-family: SofiaPro-Medium, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 14pt;
+    color: rgba(38, 33, 32, 255);
+    text-align: left;
+}
+
+.register .register_form input,
+.register .register_form select {
+    font-family: SofiaProRegular, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 18pt;
+    color: rgba(138, 133, 126, 255);
+    text-align: left;
+}
+
+.register .register_form select {
+    height: 3rem !important;
+}
+
+.register button {
+    font-family: SofiaPro-SemiBold, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 14pt;
+    background-color: #f0ae00;
+    color: rgba(255, 255, 255, 255);
+    text-align: center;
+    border: 0;
+    width: 255px;
+    height: 55px;
+    float: right;
+    border-radius: 25px;
+    margin-top: 2rem;
+}
