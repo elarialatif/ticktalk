@@ -23,7 +23,7 @@
     display: block;
 }
 
-.register .title h1 {
+.register .title h2 {
     font-family: SofiaProRegular, AdobeInvisFont, MyriadPro-Regular;
     font-size: 30pt;
     color: rgba(38, 33, 32, 255);
