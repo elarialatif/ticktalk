@@ -1,0 +1,89 @@
+@font-face {
+    font-family: SofiaProRegular;
+    src: url("../fonts/Sofia Pro Regular.ttf");
+}
+
+.about .top {
+    background: #353535;
+}
+
+.about .top .bio {
+    padding-top: 3rem;
+}
+
+.about .top .bio h4 {
+    font-family: SofiaProRegular, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 16pt;
+    color: rgba(255, 255, 255, 255);
+    text-align: left;
+    margin-bottom: 3rem;
+}
+
+.about .top .bio h4 span {
+    color: #d76701;
+}
+
+.about .top .row {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.about .top .map {
+    text-align: right;
+    position: relative;
+}
+
+span.p1,
+span.p2,
+span.p3,
+span.p4,
+span.p5,
+span.p6,
+span.p6 {
+    background: url('../images/p.png');
+    width: 10px;
+    height: 10px;
+    background-size: cover;
+    position: absolute;
+}
+
+span.p1 {
+    top: 38px;
+    bottom: 340px;
+    left: 273px;
+    right: 459px;
+}
+
+span.p2 {
+    top: 149px;
+    left: 243px;
+}
+
+span.p3 {
+    top: 137px;
+    left: 387px;
+}
+
+span.c1,
+span.c2,
+span.c3,
+span.c4,
+span.c5,
+span.c6,
+span.c6 {
+    background: url('../images/c.png');
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    position: absolute;
+}
+
+span.c1 {
+    top: 33px;
+    left: 268px;
+}
+
+span.c2 {
+    top: 144px;
+    left: 238px;
+}
