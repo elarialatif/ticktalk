@@ -80,7 +80,7 @@
 .header .navbar-nav.links {
     display: inline-block;
     float: right;
-    padding: 1rem 0.5rem;
+    padding: 0rem 0.5rem;
 }
 
 .header .navbar-nav.links a {
@@ -89,7 +89,40 @@
     vertical-align: middle;
     color: rgba(255, 255, 255, 255);
     display: inline-block;
-    padding: 0 1.5rem;
+    padding: 1rem 1.5rem;
+    padding-bottom: 1.8rem;
+    border-bottom: 3px solid transparent;
+}
+
+.header .navbar-nav.links a.register {
+    color: #f0ae00;
+    border: 2px solid #f0ae00;
+    padding: 0.7rem 3rem;
+    border-radius: 30px;
+    float: right;
+    letter-spacing: 2px;
+    margin-left: 2rem;
+    margin-top: 0;
+}
+
+.header .navbar-nav.links a.registerActive {
+    background: #f0ae00 !important;
+    border: 2px solid #f0ae00;
+    color: rgba(255, 255, 255, 255);
+    padding: 0.7rem 3rem;
+    background: transparent;
+    border-radius: 30px;
+    float: right;
+    letter-spacing: 2px;
+    margin-left: 2rem;
+    margin-top: 0;
+}
+
+.header .navbar-nav.links a.register:focus,
+.header .navbar-nav.links a.register:hover {
+    background-color: #f0ae00;
+    border: 2px solid #f0ae00;
+    color: rgba(255, 255, 255, 255);
 }
 
 .navbar-light .navbar-nav .active>.nav-link,
@@ -98,10 +131,8 @@
 .navbar-light .navbar-nav .open>.nav-link,
 .navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:hover {
+    border-bottom: 3px solid #f0ae00;
     color: rgba(255, 255, 255, 255);
-    background-color: #f0ae00;
-    border-radius: 25px;
-    /* padding: 0.5rem 2rem; */
 }
 
 .header .desc {}
