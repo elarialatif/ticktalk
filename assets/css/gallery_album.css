@@ -1,0 +1,99 @@
+@font-face {
+    font-family: SofiaPro-SemiBold;
+    src: url("../fonts/Sofia Pro SemiBold.ttf");
+}
+
+@font-face {
+    font-family: SofiaProRegular;
+    src: url("../fonts/Sofia Pro Regular.ttf");
+}
+
+.galleryAlbum_page .gallery_album {
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.galleryAlbum_page .gallery_album button {
+    font-family: SofiaPro-SemiBold, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 14pt;
+    color: rgba(240, 174, 0, 255);
+    text-align: left;
+    background-color: #fff;
+    border: 3px solid #e8e8e8;
+    padding: 0.5rem 3rem;
+    border-radius: 25px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+.galleryAlbum_page .gallery_album button img {
+    margin-right: 1rem;
+}
+
+.galleryAlbum_page .gallery_album h3 {
+    font-family: SofiaProRegular, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 30pt;
+    color: rgba(38, 33, 32, 255);
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.galleryAlbum_page .gallery_album p {
+    font-family: SofiaProRegular, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 14pt;
+    color: rgba(138, 133, 126, 255);
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.galleryAlbum_page .gallery_album hr {
+    margin: auto;
+    width: 80px;
+    border: 2px solid #d76701;
+    border-radius: 30px;
+    margin-bottom: 2rem;
+}
+
+.galleryAlbum_page .gallery_album .row {
+    margin: auto;
+    margin-bottom: 2rem;
+}
+
+.galleryAlbum_page .gallery_album .card {
+    border: 0;
+    margin-right: 0;
+    margin-left: 5rem;
+    padding: 0;
+}
+
+.galleryAlbum_page .gallery_album .card img {
+    height: 245px;
+    border-radius: 10px;
+}
+
+.galleryAlbum_page .gallery_album .row1 .odd1 .bg,
+.galleryAlbum_page .gallery_album .row1 .odd3 .bg {
+    position: relative;
+}
+
+.galleryAlbum_page .gallery_album .row1 .odd1 .search,
+.galleryAlbum_page .gallery_album .row1 .odd3 .video,
+.galleryAlbum_page .gallery_album .row2 .odd1 .search,
+.galleryAlbum_page .gallery_album .row2 .odd3 .video {
+    position: absolute;
+    background-color: #f0ae00;
+    border-radius: 40px;
+    padding: 1.5rem;
+    top: 96px;
+    left: 80px;
+}
+
+.galleryAlbum_page .gallery_album .row1 .odd1 .search img,
+.galleryAlbum_page .gallery_album .row1 .odd3 .video img,
+.galleryAlbum_page .gallery_album .row2 .odd1 .search img,
+.galleryAlbum_page .gallery_album .row2 .odd3 .video img {
+    width: 26px;
+    height: 26px;
+}
