@@ -1,0 +1,71 @@
+@font-face {
+    font-family: SofiaProRegular;
+    src: url("../fonts/Sofia Pro Regular.ttf");
+}
+
+.gallery_page .gallery {
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+
+.gallery_page .gallery h3 {
+    font-family: SofiaProRegular, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 30pt;
+    color: rgba(38, 33, 32, 255);
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.gallery_page .gallery p {
+    font-family: SofiaProRegular, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 14pt;
+    color: rgba(138, 133, 126, 255);
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.gallery_page .gallery hr {
+    margin: auto;
+    width: 80px;
+    border: 2px solid #d76701;
+    border-radius: 30px;
+    margin-bottom: 2rem;
+}
+
+.gallery_page .gallery .row {
+    margin: auto;
+}
+
+.gallery_page .gallery .card {
+    border: 0;
+    margin-right: 0;
+    margin-left: 4rem;
+    padding: 0;
+}
+
+.gallery_page .gallery .card img {
+    height: 262px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.gallery_page .gallery .card .container {
+    padding: 1rem;
+    background-color: #f6f6f6;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.gallery_page .gallery .card .container h4 {
+    font-family: SofiaProRegular, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 14pt;
+    color: rgba(38, 33, 32, 255);
+    text-align: left;
+}
+
+.gallery_page .gallery .card .container h6 {
+    font-family: SofiaProRegular, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 12pt;
+    color: rgba(138, 133, 126, 255);
+    text-align: left;
+}
