@@ -3,6 +3,11 @@
     src: url("../fonts/Sofia Pro Regular.ttf");
 }
 
+@font-face {
+    font-family: SofiaPro-SemiBold;
+    src: url("../fonts/Sofia Pro SemiBold.ttf");
+}
+
 .about .top {
     background: #353535;
 }
@@ -133,4 +138,64 @@ span.c6 {
 span.c7 {
     top: 143px;
     left: 473px;
+}
+
+.about .bottom {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.about .bottom .icon {
+    width: 160px;
+    height: 160px;
+    background: #9accfd;
+    margin: auto;
+    border-radius: 90px;
+    margin-bottom: 2rem;
+}
+
+.about .bottom img {
+    display: block;
+    padding: 2.5rem;
+    margin: auto;
+}
+
+.about .bottom h4 {
+    font-family: SofiaProRegular, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 23pt;
+    color: rgba(215, 103, 1, 255);
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.about .bottom p {
+    font-family: SofiaProRegular, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 13pt;
+    color: rgba(138, 133, 126, 255);
+    text-align: center;
+    width: 950px;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+
+.about .bottom h6 {
+    font-family: SofiaProRegular, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 15pt;
+    color: rgba(53, 53, 53, 255);
+    text-align: center;
+    width: 1015px;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+
+.about .bottom button {
+    font-family: SofiaPro-SemiBold, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 14pt;
+    color: rgba(255, 255, 255, 255);
+    text-align: center;
+    background-color: #f0ae00;
+    border: 0;
+    padding: 0.5rem 2rem;
+    border-radius: 30px;
 }
