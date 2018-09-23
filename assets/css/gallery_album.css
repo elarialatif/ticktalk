@@ -14,7 +14,7 @@
     text-align: center;
 }
 
-.galleryAlbum_page .gallery_album button {
+.galleryAlbum_page .gallery_album a {
     font-family: SofiaPro-SemiBold, AdobeInvisFont, MyriadPro-Regular;
     font-size: 14pt;
     color: rgba(240, 174, 0, 255);
@@ -25,10 +25,9 @@
     border-radius: 25px;
     letter-spacing: 2px;
     text-transform: uppercase;
-    margin-bottom: 2rem;
 }
 
-.galleryAlbum_page .gallery_album button img {
+.galleryAlbum_page .gallery_album a img {
     margin-right: 1rem;
 }
 
@@ -38,6 +37,7 @@
     color: rgba(38, 33, 32, 255);
     text-align: center;
     margin-bottom: 2rem;
+    margin-top: 2rem;
 }
 
 .galleryAlbum_page .gallery_album p {

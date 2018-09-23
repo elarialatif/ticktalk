@@ -41,6 +41,11 @@
     margin-right: 0;
     margin-left: 4rem;
     padding: 0;
+    cursor: pointer;
+}
+
+.gallery_page .gallery .card a {
+    overflow: hidden;
 }
 
 .gallery_page .gallery .card img {
