@@ -39,7 +39,8 @@ span.p3,
 span.p4,
 span.p5,
 span.p6,
-span.p6 {
+span.p6,
+span.p7 {
     background: url('../images/p.png');
     width: 10px;
     height: 10px;
@@ -64,13 +65,34 @@ span.p3 {
     left: 387px;
 }
 
+span.p4 {
+    top: 119px;
+    left: 435px;
+}
+
+span.p5 {
+    top: 161px;
+    left: 458px;
+}
+
+span.p6 {
+    top: 161px;
+    left: 487px;
+}
+
+span.p7 {
+    top: 148px;
+    left: 478px;
+}
+
 span.c1,
 span.c2,
 span.c3,
 span.c4,
 span.c5,
 span.c6,
-span.c6 {
+span.c6,
+span.c7 {
     background: url('../images/c.png');
     width: 20px;
     height: 20px;
@@ -86,4 +108,29 @@ span.c1 {
 span.c2 {
     top: 144px;
     left: 238px;
+}
+
+span.c3 {
+    top: 132px;
+    left: 382px;
+}
+
+span.c4 {
+    top: 114px;
+    left: 430px;
+}
+
+span.c5 {
+    top: 156px;
+    left: 453px;
+}
+
+span.c6 {
+    top: 156px;
+    left: 482px;
+}
+
+span.c7 {
+    top: 143px;
+    left: 473px;
 }
