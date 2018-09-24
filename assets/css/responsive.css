@@ -11,6 +11,34 @@
     .register button {
         float: none;
     }
+    /* -------------------------------------------------------------------------------------------- */
+    /* CONTACT Page */
+    .contact_page .info div {
+        width: 90%;
+        margin-bottom: 1rem;
+        margin-left: 1rem;
+    }
+    .contact_info {
+        padding: 3rem 2rem;
+    }
+    .contact_info .left {
+        margin-right: 2rem;
+    }
+    .contact_info .right {
+        display: block;
+        padding: 2rem 1.5rem;
+        float: none;
+    }
+    .contact_info p {
+        width: 300px;
+    }
+    .contact_info .right form input {
+        width: 200px;
+    }
+    .contact_info .right form textarea {
+        width: 200px;
+        height: 200px;
+    }
 }
 
 
@@ -27,17 +55,41 @@
     .register button {
         float: none;
     }
+    /* -------------------------------------------------------------------------------------------- */
+    /* CONTACT Page */
+    .contact_page .info div {
+        width: 90%;
+        margin-bottom: 1rem;
+        margin-left: 1rem;
+    }
+    .contact_info {
+        padding: 3rem 2rem;
+    }
+    .contact_info .right {
+        float: none;
+    }
+    .contact_info p {
+        width: 450px;
+    }
 }
 
 
 /* Medium devices (tablets, 768px and up) */
 
-@media (min-width: 768px) and (max-width: 991.98px) {}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .contact_info .right {
+        float: none;
+    }
+}
 
 
 /* Large devices (desktops, 992px and up) */
 
-@media (min-width: 992px) and (max-width: 1199.98px) {}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .contact_info .right {
+        float: none;
+    }
+}
 
 
 /* Extra large devices (large desktops, 1200px and up) */
