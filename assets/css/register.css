@@ -35,7 +35,7 @@
     font-size: 16pt;
     color: rgba(138, 133, 126, 255);
     text-align: left;
-    width: 900px;
+    max-width: 900px;
 }
 
 .register .title hr {
