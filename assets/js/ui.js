@@ -1,46 +1,18 @@
-// A $( document ).ready() block.
-// $(document).ready(function() {
-
-//     // Add active class to the current button (highlight it)
-//     var header = document.getElementById("clickLink");
-//     var btns = header.getElementsByClassName("nav-link");
-//     for (var i = 0; i < btns.length; i++) {
-//         btns[i].addEventListener("click", function() {
-//             var current = document.getElementsByClassName("active");
-//             current[0].className = current[0].className.replace(" active", "");
-//             this.className += " active";
-//         });
-//     }
-//     // next & previous
-
-// });
-
-
-
-slideW = $('#items').width();
-current = 0;
-$(document).on('click', '#prev', function(e) {
-
-    if (current > 0 && current <= $('#items').children().length - 1) {
-        current--;
-    }
-
-    console.log(current);
-    e.preventDefault();
-    $('#items').animate({
-        scrollLeft: slideW * current - 100
-    }, 600);
-
+// ================================================================
+// Add / remove class based on window size
+jQuery(document).ready(function($) {
+    var alterClass = function() {
+        var ww = document.body.clientWidth;
+        if (ww < 991.98) {
+            $('.header nav .links a.register').removeClass('register');
+        } else if (ww >= 992) {
+            $('.header nav .links a.register').addClass('register');
+        };
+    };
+    $(window).resize(function() {
+        alterClass();
+    });
+    //Fire it when the page first loads:
+    alterClass();
 });
-
-$(document).on('click', '#next', function(e) {
-
-    if (current < $('#items').children().length - 1)
-        current++;
-    console.log(current);
-    e.preventDefault();
-    $('#items').animate({
-        scrollLeft: slideW * current + 100
-    }, 600);
-
-});
+// ============================================================

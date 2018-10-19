@@ -1,39 +1,150 @@
 /* Extra small devices (portrait phones, less than 576px) */
 
 @media (max-width: 575.98px) {
-    /* Header */
-    .header {
-        display: none;
+    /* Header General */
+    .header nav>.nav-btn {
+        display: inline-block;
+        position: absolute;
+        right: 0px;
+        top: 15px;
     }
-    .gallery_page .resNav {
-        background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../images/g1.png') center center fixed;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        width: 100%;
+    .header nav>.nav-btn>label {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        padding: 13px;
     }
-    .resNav .navbar-nav {
-        padding-top: .425rem;
-        padding-left: 0.75rem;
+    .header nav>.nav-btn>label:hover {
+        background-color: rgba(0, 0, 0, 0.3);
     }
-    .resNav .navbar-nav .nav-item {
-        float: none;
-    }
-    .resNav .logo {
-        float: right;
-    }
-    .resNav .logo,
-    .resNav .navbar-nav .nav-item {
+    .header nav>.nav-btn>label>span {
         display: block;
+        width: 25px;
+        height: 10px;
+        border-top: 2px solid #eee;
     }
-    .resNav .navbar-nav .nav-item+.nav-item {
-        margin-left: 0;
+    .header nav>.links {
+        position: absolute;
+        display: block;
+        width: 100%;
+        background-color: #333;
+        height: 0px;
+        transition: all 0.3s ease-in;
+        overflow-y: hidden;
+        top: 88px;
+        left: 0px;
     }
-    .resNav .dropdown-menu {
-        position: relative;
-        float: none;
+    .header nav>.links>a {
+        display: block;
+        width: 100%;
+        padding: 2rem;
     }
+    .header nav>#nav-check:not(:checked)+.links {
+        height: 0px;
+    }
+    .header nav>#nav-check:checked+.links {
+        height: calc(100vh - 150px);
+        overflow-y: auto;
+    }
+    .header .clear {
+        height: 100px;
+    }
+    .header .desc h1 {
+        font-size: 18pt;
+    }
+    .header .desc h3 {
+        font-size: 10pt;
+        max-width: 350px;
+        margin: auto;
+        margin-bottom: 2rem;
+    }
+    /* ----------------------------------------------------- */
+    /* Home */
+    .home_page .desc a.register {
+        margin-right: 0;
+        padding: 1rem;
+        display: block;
+        margin: auto;
+        width: 60%;
+        margin-bottom: 2rem;
+    }
+    .home_page .desc a.learn_more {
+        opacity: 1;
+    }
+    .home_page .ideas .left {
+        padding: 1rem 0;
+        margin: auto;
+        width: auto;
+    }
+    .home_page .ideas .left p {
+        width: 350px;
+    }
+    .home_page .ideas .right {
+        text-align: center;
+    }
+    .home_page .ideas .right img {
+        width: 350px;
+    }
+    .home_page .who .left {
+        background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../images/h7.png) 529px center fixed;
+        height: 200px;
+    }
+    .home_page .who .left h4 {
+        font-size: 1.5rem;
+        padding: 5rem 4rem;
+    }
+    .home_page .who .right p {
+        padding: 2rem;
+    }
+    .home_page .servies .servies_card .card {
+        margin-right: 0;
+        margin: auto;
+        margin-bottom: 1rem;
+    }
+    .home_page .why_tick .why_card .card {
+        max-width: 300px;
+        margin-right: 0;
+        margin: auto;
+        margin-bottom: 1rem;
+    }
+    .home_page .testimonials .content {
+        width: auto;
+        height: 400px;
+    }
+    .home_page .testimonials .content .slides {
+        height: 300px;
+        width: 350px;
+        top: 0rem;
+        left: 0rem;
+        padding: 0 1rem;
+        margin: auto;
+    }
+    .home_page .testimonials .content p {
+        font-size: 11pt;
+    }
+    .home_page .testimonials .content h5 {
+        font-size: 12pt;
+    }
+    .home_page .community {
+        height: 500px;
+        padding: 2rem 0;
+    }
+    .home_page .community h3 {
+        font-size: 20pt;
+    }
+    .home_page .community h5 {
+        width: 350px;
+        margin: auto;
+        margin-bottom: 0;
+        padding: 1rem 0;
+    }
+    .home_page .community a {
+        padding: 1rem;
+        margin: 1rem auto;
+        display: block;
+        width: 60%;
+    }
+    /* ----------------------------------------------------- */
     /* ------------------------------------------------------------------------- */
     /* Register Page */
     .register .title p {
@@ -73,12 +184,157 @@
         width: 200px;
         height: 200px;
     }
+    /* ---------------------------------------------------------------------------- */
+    /* Footer */
+    .page-footer .links a {
+        text-align: center;
+        margin: 1rem;
+        display: block;
+    }
 }
 
 
 /* Small devices (landscape phones, 576px and up) */
 
 @media (min-width: 576px) and (max-width: 767.98px) {
+    /* Header General */
+    .header nav>.nav-btn {
+        display: inline-block;
+        position: absolute;
+        right: 0px;
+        top: 15px;
+    }
+    .header nav>.nav-btn>label {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        padding: 13px;
+    }
+    .header nav>.nav-btn>label:hover {
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+    .header nav>.nav-btn>label>span {
+        display: block;
+        width: 25px;
+        height: 10px;
+        border-top: 2px solid #eee;
+    }
+    .header nav>.links {
+        position: absolute;
+        display: block;
+        width: 100%;
+        background-color: #333;
+        height: 0px;
+        transition: all 0.3s ease-in;
+        overflow-y: hidden;
+        top: 88px;
+        left: 0px;
+    }
+    .header nav>.links>a {
+        display: block;
+        width: 100%;
+        padding: 2rem;
+    }
+    .header nav>#nav-check:not(:checked)+.links {
+        height: 0px;
+    }
+    .header nav>#nav-check:checked+.links {
+        height: calc(100vh - 177px);
+        overflow-y: auto;
+    }
+    .header .clear {
+        height: 100px;
+    }
+    .header .desc h3 {
+        font-size: 11pt;
+    }
+    /* ----------------------------------------------------- */
+    /* Home */
+    .home_page .desc a.register {
+        margin-right: 0;
+        padding: 1rem;
+        display: block;
+        margin: auto;
+        width: 60%;
+        margin-bottom: 2rem;
+    }
+    .home_page .desc a.learn_more {
+        opacity: 1;
+    }
+    .home_page .ideas .left {
+        padding: 1rem 0;
+        margin: auto;
+        width: auto;
+    }
+    .home_page .ideas .left p {
+        width: 450px;
+    }
+    .home_page .ideas .right {
+        text-align: center;
+    }
+    .home_page .ideas .right img {
+        width: 450px;
+    }
+    .home_page .who .left {
+        background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../images/h7.png) 529px center fixed;
+        height: 200px;
+    }
+    .home_page .who .left h4 {
+        font-size: 1.5rem;
+        padding: 5rem 4rem;
+    }
+    .home_page .who .right p {
+        padding: 2rem;
+    }
+    .home_page .servies .servies_card .card {
+        margin-right: 0;
+        margin: auto;
+        margin-bottom: 1rem;
+    }
+    .home_page .why_tick .why_card .card {
+        max-width: 400px;
+        margin-right: 0;
+        margin: auto;
+        margin-bottom: 1rem;
+    }
+    .home_page .testimonials .content {
+        width: auto;
+        height: 400px;
+    }
+    .home_page .testimonials .content .slides {
+        height: 300px;
+        width: 350px;
+        top: 0rem;
+        left: 0rem;
+        padding: 0 1rem;
+        margin: auto;
+    }
+    .home_page .testimonials .content p {
+        font-size: 11pt;
+    }
+    .home_page .testimonials .content h5 {
+        font-size: 12pt;
+    }
+    .home_page .community {
+        height: 500px;
+        padding: 2rem 0;
+    }
+    .home_page .community h3 {
+        font-size: 20pt;
+    }
+    .home_page .community h5 {
+        width: 350px;
+        margin: auto;
+        margin-bottom: 0;
+        padding: 1rem 0;
+    }
+    .home_page .community a {
+        padding: 1rem;
+        margin: 1rem auto;
+        display: block;
+        width: 60%;
+    }
+    /* -------------------------------------------------------- */
     /* Register Page */
     .register .title p {
         max-width: 500px;
@@ -111,8 +367,113 @@
 /* Medium devices (tablets, 768px and up) */
 
 @media (min-width: 768px) and (max-width: 991.98px) {
+    /* Header General */
+    .header nav>.nav-btn {
+        display: inline-block;
+        position: absolute;
+        right: 0px;
+        top: 15px;
+    }
+    .header nav>.nav-btn>label {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        padding: 13px;
+    }
+    .header nav>.nav-btn>label:hover {
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+    .header nav>.nav-btn>label>span {
+        display: block;
+        width: 25px;
+        height: 10px;
+        border-top: 2px solid #eee;
+    }
+    .header nav>.links {
+        position: absolute;
+        display: block;
+        width: 100%;
+        background-color: #333;
+        height: 0px;
+        transition: all 0.3s ease-in;
+        overflow-y: hidden;
+        top: 88px;
+        left: 0px;
+    }
+    .header nav>.links>a {
+        display: block;
+        width: 100%;
+        padding: 2rem;
+    }
+    .header nav>#nav-check:not(:checked)+.links {
+        height: 0px;
+    }
+    .header nav>#nav-check:checked+.links {
+        height: calc(100vh - 177px);
+        overflow-y: auto;
+    }
+    .header .clear {
+        height: 100px;
+    }
+    .header .desc h3 {
+        font-size: 11pt;
+    }
+    /* ----------------------------------------------------- */
+    /* Home */
+    .home_page .desc a.register {
+        padding: 1rem 4rem;
+    }
+    .home_page .desc a.learn_more {
+        opacity: 1;
+    }
+    .home_page .ideas .left {
+        padding: 1rem;
+    }
+    .home_page .ideas .left p {
+        width: 300px;
+    }
+    .home_page .ideas .right img {
+        width: 360px;
+    }
+    .home_page .ideas .left p {
+        font-size: 0.8rem;
+    }
+    .home_page .who .left h4 {
+        padding: 12rem 0;
+        margin: auto;
+    }
+    .home_page .who .right p {
+        padding: 2rem;
+    }
+    .home_page .servies .servies_card .card {
+        padding: 2rem 0;
+        max-width: 340px;
+        margin-right: 0;
+        margin: auto;
+        width: auto;
+        margin-bottom: 1rem;
+    }
+    .home_page .why_tick .why_card .card {
+        margin-right: 0;
+        margin: auto;
+        margin-bottom: 1rem;
+    }
+    .home_page .community h5 {
+        width: 750px;
+    }
+    /* ---------------------------------------------------------------------------*/
+    /* Contact */
     .contact_info .right {
         float: none;
+    }
+    /* --------------------------------------------------- */
+    /* footer */
+    .page-footer .links a {
+        text-align: center;
+        margin: 0 1rem;
+        margin: 1rem auto;
+        width: auto;
+        display: block;
     }
 }
 
@@ -123,9 +484,21 @@
     .contact_info .right {
         float: none;
     }
+    /* ----------------------------------------------- */
+    /* Footer */
+    .page-footer .links a {
+        font-size: 11pt;
+        display: inline-block;
+    }
 }
 
 
 /* Extra large devices (large desktops, 1200px and up) */
 
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+    /* Footer */
+    .page-footer .links a {
+        font-size: 11pt;
+        display: inline-block;
+    }
+}

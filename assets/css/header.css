@@ -169,3 +169,22 @@
     color: rgba(255, 255, 255, 255);
     text-align: center;
 }
+
+
+/*  */
+
+.header nav {
+    position: relative;
+}
+
+.header nav>.nav-btn {
+    display: none;
+}
+
+.header nav>.links {
+    display: inline;
+}
+
+.header nav>#nav-check {
+    display: none;
+}
