@@ -178,6 +178,20 @@
         margin: auto 1rem;
         margin-bottom: 2rem;
     }
+    /* ------------------------------------- */
+    /* gallery */
+    .gallery_page .gallery hr {
+        margin-bottom: 0rem;
+        margin: 2rem auto;
+    }
+    .gallery_page .gallery p {
+        margin-bottom: 0rem;
+        margin: auto 1rem;
+    }
+    .gallery_page .gallery .card {
+        margin: 1rem auto;
+        width: 400px;
+    }
     /* ------------------------------------------------------------------------- */
     /* Register Page */
     .register .title p {
@@ -406,6 +420,20 @@
         margin: auto 1rem;
         margin-bottom: 2rem;
     }
+    /* ------------------------------------- */
+    /* gallery */
+    .gallery_page .gallery hr {
+        margin-bottom: 0rem;
+        margin: 2rem auto;
+    }
+    .gallery_page .gallery p {
+        margin-bottom: 0rem;
+        margin: auto 1rem;
+    }
+    .gallery_page .gallery .card {
+        margin: 1rem auto;
+        width: 400px;
+    }
     /* ------------------------------------------------------------------------- */
     /* Register Page */
     .register .title p {
@@ -558,6 +586,21 @@
     }
     .about .top .bio {
         padding-top: 0rem;
+    }
+    /* ------------------------------------- */
+    /* gallery */
+    .gallery_page .gallery hr {
+        margin-bottom: 0rem;
+        margin: 2rem auto;
+    }
+    .gallery_page .gallery p {
+        margin-bottom: 0rem;
+        margin: auto 1rem;
+    }
+    .gallery_page .gallery .card {
+        margin: 1rem auto;
+        width: 400px;
+        max-width: 400px;
     }
     /* ------------------------------------------------------------------------- */
     /* Contact */
