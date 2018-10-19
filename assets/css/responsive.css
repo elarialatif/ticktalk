@@ -1,6 +1,40 @@
 /* Extra small devices (portrait phones, less than 576px) */
 
 @media (max-width: 575.98px) {
+    /* Header */
+    .header {
+        display: none;
+    }
+    .gallery_page .resNav {
+        background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../images/g1.png') center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        width: 100%;
+    }
+    .resNav .navbar-nav {
+        padding-top: .425rem;
+        padding-left: 0.75rem;
+    }
+    .resNav .navbar-nav .nav-item {
+        float: none;
+    }
+    .resNav .logo {
+        float: right;
+    }
+    .resNav .logo,
+    .resNav .navbar-nav .nav-item {
+        display: block;
+    }
+    .resNav .navbar-nav .nav-item+.nav-item {
+        margin-left: 0;
+    }
+    .resNav .dropdown-menu {
+        position: relative;
+        float: none;
+    }
+    /* ------------------------------------------------------------------------- */
     /* Register Page */
     .register .title p {
         max-width: 400px;

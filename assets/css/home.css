@@ -1,0 +1,489 @@
+/* FONTS */
+
+@font-face {
+    font-family: SofiaPro-SemiBold;
+    src: url("../fonts/Sofia Pro SemiBold.ttf");
+}
+
+@font-face {
+    font-family: SofiaProRegular;
+    src: url("../fonts/Sofia Pro Regular.ttf");
+}
+
+@font-face {
+    font-family: SofiaPro-Medium;
+    src: url("../fonts/Sofia Pro Medium.ttf");
+}
+
+
+/* ------------------------------------------------------------------ */
+
+
+/* HEADER */
+
+.home_page .desc {
+    text-align: center;
+    overflow: -webkit-paged-x;
+}
+
+.home_page .desc h3 {
+    margin-bottom: 3rem;
+}
+
+.home_page .desc a {
+    font-family: SofiaPro-SemiBold, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 11pt;
+    color: rgba(255, 255, 255, 255);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-decoration: none;
+}
+
+.home_page .desc a.register {
+    background-color: #f0ae00;
+    margin-right: 2rem;
+    padding: 1.2rem 4rem;
+    border-radius: 50px;
+}
+
+.home_page .desc a.learn_more {
+    background-color: #c5c5c573;
+    opacity: 0.8;
+    padding: 1rem 2rem;
+    border-radius: 25px;
+}
+
+
+/* ---------------------------------------------------------------------------*/
+
+
+/* IDEA SECTION */
+
+.ideas {
+    text-align: center;
+    display: block;
+    margin: 2rem 0;
+}
+
+.ideas h3,
+.ideas h4 {
+    font-family: SofiaProRegular, SofiaPro-SemiBold, AdobeInvisFont, MyriadPro-Regular;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.ideas h3 {
+    color: #000000;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+}
+
+.ideas h4 {
+    color: #d76701;
+    font-size: 1.5rem;
+    font-weight: normal;
+    letter-spacing: 1px;
+    margin: 1rem 0;
+}
+
+.ideas .left {
+    padding: 3rem 1rem;
+    padding-bottom: 2rem;
+    padding-top: 4rem;
+}
+
+.ideas .left p {
+    font-family: SofiaProRegular, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 1rem;
+    color: rgba(138, 133, 126, 255);
+    text-align: left;
+    width: 430px;
+}
+
+.ideas .left p span {
+    margin-bottom: 1rem;
+    display: block;
+}
+
+.ideas .left p span.p2 {
+    color: #d76701;
+}
+
+.ideas .right {
+    text-align: right;
+}
+
+.ideas .right img {
+    width: 600px;
+}
+
+
+/* ----------------------------------------------------------------------------------------- */
+
+
+/* Who We Are Section */
+
+.who {
+    width: 100%;
+    margin: 0;
+}
+
+.who .left {
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../images/h7.png') 720px 0px fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: auto;
+}
+
+.who .left h4 {
+    font-family: SofiaProRegular, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 2rem;
+    padding: 12rem;
+    margin: 0;
+    color: rgba(255, 255, 255, 255);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.who .right {
+    background-color: #d76701;
+}
+
+.who .right p {
+    font-family: SofiaProRegular, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 255);
+    text-align: left;
+    margin: 0;
+    padding: 5rem;
+}
+
+.who .right p span {
+    margin-bottom: 1rem;
+    display: block;
+}
+
+
+/* ----------------------------------------------------------------------------------------------------- */
+
+
+/* Our Servies Section */
+
+.servies {
+    background-color: #f6f6f6;
+    text-align: center;
+    padding: 4rem 0;
+}
+
+.servies h3 {
+    font-family: SofiaProRegular, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 25pt;
+    color: rgba(38, 33, 32, 255);
+    text-align: center;
+}
+
+.servies h4 {
+    font-family: SofiaProRegular, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 12pt;
+    color: rgba(138, 133, 126, 255);
+    text-align: center;
+    margin: 1.5rem 0;
+}
+
+.servies hr {
+    border-top: 2px solid #d76701;
+    width: 90px;
+}
+
+.servies .servies_card {
+    margin: 2rem 0;
+}
+
+.servies .servies_card .card {
+    border-radius: 10px;
+    border-color: #fff;
+    padding: 2rem 0;
+    max-width: 340px;
+    margin-right: 1.5rem;
+    min-height: 420px;
+}
+
+.servies .servies_card .card_icon {
+    margin: 0 auto;
+    border-radius: 60px;
+    background-color: #f6f6f6;
+}
+
+.servies .servies_card .card_icon img {
+    padding: 1.5rem;
+}
+
+.servies .servies_card .card-title {
+    font-family: SofiaPro-Medium, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 13pt;
+    color: rgba(215, 103, 1, 255);
+    text-align: center;
+    margin-bottom: 0rem;
+}
+
+.servies .servies_card .card-text {
+    font-family: SofiaProRegular, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 11pt;
+    color: rgba(138, 133, 126, 255);
+    text-align: center;
+    width: 300px;
+    margin: auto;
+    padding: 1rem;
+}
+
+.servies .servies_card .btn {
+    font-family: SofiaPro-Medium, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 12pt;
+    color: rgba(240, 174, 0, 255);
+    text-align: center;
+    background-color: #fff;
+    border-color: rgba(240, 174, 0, 255);
+    border-radius: 25px;
+    outline: none;
+}
+
+.servies .servies_card .btn:hover,
+.servies .servies_card .btn.active,
+.servies .servies_card .btn:focus {
+    color: #fff;
+    background-color: rgba(240, 174, 0, 255);
+}
+
+
+/* -------------------------------------------------------------------------------------------------------- */
+
+
+/* Why Work with Tick-Talk?  Section */
+
+.why_tick {
+    text-align: center;
+    padding: 4rem 0;
+}
+
+.why_tick h3 {
+    font-family: SofiaProRegular, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 22pt;
+    color: rgba(38, 33, 32, 255);
+    text-align: center;
+}
+
+.why_tick h4 {
+    font-family: SofiaProRegular, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 12pt;
+    color: rgba(138, 133, 126, 255);
+    text-align: center;
+    margin: 1.5rem 0;
+}
+
+.why_tick hr {
+    border-top: 2px solid #d76701;
+    width: 90px;
+}
+
+.why_tick .why_card {
+    margin: 2rem 0;
+}
+
+.why_tick .why_card .card {
+    border-radius: 10px;
+    padding: 1rem 0;
+    max-width: 250px;
+    margin-right: 1.5rem;
+}
+
+.why_tick .why_card .card .card_icon img {
+    width: 50px;
+    height: 50px;
+}
+
+.why_tick .why_card .card-title {
+    font-family: SofiaPro-Medium, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 11pt;
+    color: rgba(215, 103, 1, 255);
+    text-align: center;
+    margin-bottom: 0rem;
+}
+
+.why_tick .why_card .card-text {
+    font-family: SofiaProRegular, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 10pt;
+    color: rgba(138, 133, 126, 255);
+    text-align: center;
+    margin: auto;
+    padding: 1rem;
+}
+
+
+/* --------------------------------------------------------------------------------------------------------- */
+
+
+/* Testimonials Section */
+
+.testimonials {
+    background-color: #f6f6f6;
+    text-align: center;
+    padding: 4rem 0;
+}
+
+.testimonials h3 {
+    font-family: SofiaProRegular, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 22pt;
+    color: rgba(38, 33, 32, 255);
+    text-align: center;
+}
+
+.testimonials h4 {
+    font-family: SofiaProRegular, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 12pt;
+    color: rgba(138, 133, 126, 255);
+    text-align: center;
+    margin: 1.5rem 0;
+}
+
+.testimonials hr {
+    border-top: 2px solid #d76701;
+    width: 90px;
+}
+
+.testimonials .content {
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../images/h8.png') center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+
+.testimonials .content .slides {
+    background-color: #fff;
+    position: relative;
+    height: 350px;
+    width: 500px;
+    top: 8rem;
+    left: 5rem;
+    border-radius: 10px;
+    padding: 1rem 4rem;
+}
+
+.testimonials .content #items .item {
+    text-align: left;
+}
+
+.testimonials .content .slide {
+    text-align: left;
+    margin: 1rem 0;
+}
+
+.testimonials .content .slide a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    margin-right: 0.5rem
+}
+
+.testimonials .content .slide .previous {
+    background-color: #8a857e;
+    color: #fff;
+}
+
+.testimonials .content .slide .next {
+    background-color: #f0ae00;
+    color: #fff;
+}
+
+.testimonials .content .slide .round {
+    border-radius: 50%;
+}
+
+.testimonials .content p {
+    font-family: SofiaProRegular, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 12pt;
+    color: rgba(138, 133, 126, 255);
+    text-align: left;
+    max-width: 400px;
+}
+
+.testimonials .content h5 {
+    font-family: SofiaProRegular, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 15pt;
+    color: rgba(215, 103, 1, 255);
+    text-align: left;
+}
+
+.testimonials .content span {
+    font-family: SofiaPro-Medium, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 10pt;
+    color: rgba(154, 204, 253, 255);
+    text-align: left;
+    letter-spacing: 1px;
+}
+
+
+/* --------------------------------------------------------------------------- */
+
+
+/* Tick-Talk Community Section */
+
+.community {
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../images/h6.png') center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 550px;
+    text-align: center;
+    padding: 4rem 0;
+}
+
+.community .icon {
+    padding: 2rem 2rem;
+    background-color: #ffffff;
+    margin: auto;
+    border-radius: 100%;
+    width: 120px;
+    height: 120px;
+}
+
+.community .icon img {
+    width: 60px;
+    height: 60px;
+}
+
+.community h3 {
+    font-family: SofiaProRegular, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 24pt;
+    margin-top: 2rem;
+    color: rgba(255, 255, 255, 255);
+    text-align: center;
+}
+
+.community h5 {
+    font-family: SofiaProRegular, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 12pt;
+    width: 900px;
+    margin: 2rem auto;
+    margin-bottom: 4rem;
+    color: rgba(255, 255, 255, 255);
+    text-align: center;
+}
+
+.community a {
+    font-family: SofiaPro-SemiBold, AdobeInvisFont, MyriadPro-Regular;
+    font-size: 14pt;
+    color: rgba(255, 255, 255, 255);
+    text-align: center;
+    background-color: #f0ae00;
+    padding: 1rem 4rem;
+    border-radius: 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
