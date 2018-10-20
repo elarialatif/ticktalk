@@ -213,6 +213,10 @@
     }
     /* ------------------------------------------------------------------------- */
     /* Register Page */
+    .register {
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+    }
     .register .title p {
         max-width: 400px;
     }
@@ -664,6 +668,10 @@
     .contact_info .right {
         float: none;
     }
+    .contact_page .info div {
+        margin: auto;
+        width: auto;
+    }
     /* --------------------------------------------------- */
     /* footer */
     .page-footer .links a {
@@ -719,6 +727,10 @@
     /* contact */
     .contact_info .right {
         float: none;
+    }
+    .contact_page .info div {
+        margin: auto;
+        width: auto;
     }
     /* ----------------------------------------------- */
     /* Footer */
